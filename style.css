@@ -1,7 +1,7 @@
 * {
   margin: 0px;
 }
-.logo {
+.logo {padding: 1em;
   height: 3em;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@ p + b {
   background: rgb(253, 253, 134, 0.7);
   display: flex;
   justify-content: center;
-  color: rgb(10, 63, 10);
+  color: rgb(33, 100, 33);
 }
 .main {
   width: 50%;
@@ -23,25 +23,20 @@ p + b {
   display: flex;
   justify-content: center;
 }
-
 .recepiteTitle {
+  padding: 1em;
   text-align: center;
-  margin: 5%;
-}
-.descriptionImg{
-  height:auto ;
 }
 .descriptionImg .imgName {
   text-align: center;
   color: gray;
 }
 .focaccia {
+margin-top: 1em;
   border-radius: 2%;
   width: 100%;
-
   object-fit: cover;
 }
-
 .feature {
   border-left: 1px solid rgb(255, 255, 0);
 }
@@ -65,6 +60,7 @@ li {
   margin: 0.5em;
 }
 ul {
+  font-family: Nanum Gothic Coding;
   margin-top: 1em;
 }
 .footer {
